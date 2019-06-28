@@ -1,7 +1,7 @@
 Author: İlker Polat
 Email: ilkerpolat3@gmail.com
 
-#How does it work
+# How does it work
 
 This tool is for approximately finding total cache size of CPU. After creating arrays in increasing order and then reads random values from arrays, the ratio of the time spend in read/write operation to the size of array gives us a clue about are caches filled up. 
 
@@ -11,9 +11,10 @@ In python script, firstly compile&run program. Then taking output of program (ar
 
 You can see plots with filter and raw.
 
-https://github.com/ilkerpolat6/cache_measurement/blob/master/filtered_plot.png
-https://github.com/ilkerpolat6/cache_measurement/blob/master/raw_plotted.png
-#How to use
+![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/filtered_plot.png)
+![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/raw_plotted.png)
+
+# How to use
 
 Just run "printplot.py". It will compile and run program and then print plot.
 
