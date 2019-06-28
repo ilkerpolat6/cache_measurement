@@ -11,8 +11,8 @@ In python script, firstly compile&run program. Then taking output of program (ar
 
 You can see plots with filter and raw.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+https://github.com/ilkerpolat6/cache_measurement/blob/master/filtered_plot.png
+https://github.com/ilkerpolat6/cache_measurement/blob/master/raw_plotted.png
 #How to use
 
 Just run "printplot.py". It will compile and run program and then print plot.
