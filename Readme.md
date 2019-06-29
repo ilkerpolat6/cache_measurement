@@ -12,7 +12,7 @@ In python script, firstly compile&run program. Then takes the output of the prog
 You can see plots with noise filter and raw for 4384kB cache.
 
 ![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/filtered_plot.png)
-![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/raw_plotted.png)
+![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/raw_plot.png)
 
 # How to use
 
