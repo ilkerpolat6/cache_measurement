@@ -14,11 +14,14 @@ x=np.loadtxt("cache_measurement.out",delimiter='\t',skiprows=1)
 y=x[:,0]
 x=x[:,1]
 
-#some noise filtering
-n = 15  # the larger n is, the smoother curve will be. If n is 1, you will get non-filtered plot
-b = [1.0 / n] * n
-a = 1
-x = lfilter(b,a,x)
+use_noise_filter=1
+
+if(use_noise_filter):
+    #some noise filtering
+    n = 15  # the larger n is, the smoother curve will be. If n is 1, you will get non-filtered plot
+    b = [1.0 / n] * n
+    a = 1
+    x = lfilter(b,a,x)
 
 plt.xlabel("size of array created(kbayt)")
 plt.ylabel("time spend in process / array size")
