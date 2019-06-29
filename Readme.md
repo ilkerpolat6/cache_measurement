@@ -9,7 +9,7 @@ L1 and L2 timing differences are not very noticeable but after filling up L3, yo
 
 In python script, firstly compile&run program. Then takes the output of the program (array size and ratio) and use noise filter. "polyValues" are polynomial coefficients of polynomial fitted to our results. Rest of the script basically try to find where concavity changes (point of inflection (POI)). Because there will be many POI, only one of them is true. If you have a higher polynomial degree, you will get more POI. 
 
-You can see plots with filter and raw.
+You can see plots with noise filter and raw for 4384kB cache.
 
 ![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/filtered_plot.png)
 ![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/raw_plotted.png)
