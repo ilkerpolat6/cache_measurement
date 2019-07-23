@@ -24,7 +24,7 @@ if(use_noise_filter):
     x = lfilter(b,a,x)
 
 plt.xlabel("size of array created(kbayt)")
-plt.ylabel("time spend in process / array size")
+plt.ylabel("time spent in process / array size")
 plt.plot(y,x)
 
 #polynom fitting
