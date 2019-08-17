@@ -22,7 +22,7 @@ Just run "printplot.py". It will compile and run the program and then print plot
 
 While running the program, I recommend close all other working programs. Also, you don't need to run the compiled program every time if you didn't change "cache_measurment.cpp".
 
-You can check the result correct with:
+You can check the result with:
 
 `lscpu | egrep cache`
 
