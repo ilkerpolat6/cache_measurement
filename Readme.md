@@ -34,7 +34,7 @@ If you run this tool for a long time you will see a similar plot like below.
 
 ![alt text](https://github.com/ilkerpolat6/cache_measurement/blob/master/long_run.png)
 
-The reason for this curve is the probability of cache misses. If your cache size is X and your data is smaller than X, you will get 0 miss rate. If data is 2X, your miss rate will be 1/2. And if it is 3x, your miss rate will be 2/3 and goes on like 3/4, 4/6. Therefore there is a strong relation between miss rate and data access time we are getting the same plot with the miss rate.
+The reason for this curve is the probability of cache misses. If your cache size is X and your data is smaller than X, you will get 0 miss rate. If data is 2X, your miss rate will be 1/2. And if it is 3x, your miss rate will be 2/3 and goes on like 3/4, 5/6. Therefore there is a strong relation between miss rate and data access time we are getting the same plot with the miss rate.
 
 I think it is fun to see the practical results of such a theoretical method.
 
